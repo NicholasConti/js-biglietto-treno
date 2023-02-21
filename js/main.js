@@ -4,12 +4,10 @@ let kmUser = parseFloat(prompt('Inserisci quanti km vuoi percorrere'));
 //2)
 let ageUser = parseFloat(prompt('Inserisci la tua eta'));
 //3)
-/*if ((isNaN(kmUser)) || (isNaN(ageUser))){
+if ((isNaN(kmUser)) || (isNaN(ageUser))){
     kmUser = parseFloat(prompt('Inserisci quanti km vuoi percorrere'));
     ageUser = parseFloat(prompt('Inserisci la tua eta'));
-}*/
-console.log(kmUser);
-console.log(ageUser);
+}
 //4)
 let prezzo = kmUser * 0.21;
 //5)
